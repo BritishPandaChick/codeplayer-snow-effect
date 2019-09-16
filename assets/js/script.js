@@ -45,6 +45,7 @@ window.onload = function(){
       var p = particles[i];
      //update x and y coordinates
      //Add 1 to cos function to prevent negative values-keeps them from moving upwards as fall
+     //Particles have own density that can be used to make downward movement different for each flake.
      //make random by adding radius
       p.y += Math.cos(angle + p.d) + 1 + p.r/2;
       p.x += Math.sin(angle)*2;
