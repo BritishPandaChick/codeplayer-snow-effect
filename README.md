@@ -5,7 +5,7 @@ Snow Effect project on The CodePlayer. Uses HTML, CSS, and JavaScript.
 Clone or download zip file. Open index.html file in your browser.
 
 ## Contributing
-This repository is based on starter code from TheCodePlayer. Therefore I will not be accepting any pull requests.
+This repository is based on starter code from TheCodePlayer.com. Therefore I will not be accepting any pull requests.
 
 ## Acknowledgements
-* TheCodePlayer
+* TheCodePlayer.com

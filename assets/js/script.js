@@ -18,7 +18,7 @@ window.onload = function(){
       y:Math.random()*H, //y-coordinate
       r:Math.random()*4+1, //radius
       d:Math.random()*mp //density
-    })
+    });
   }
 
   //Draw snowflakes
@@ -48,7 +48,6 @@ window.onload = function(){
      //make random by adding radius
       p.y += Math.cos(angle + p.d) + 1 + p.r/2;
       p.x += Math.sin(angle)*2;
-
 
     //Send flakes back to the top when exits
     //lets flakes enter from left and right
